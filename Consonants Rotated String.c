@@ -66,12 +66,3 @@ int main()
     RotateString(S,N,StringLen);
     printf("%s",S);
 }
-
-
-
-
-
-
-
-
-
