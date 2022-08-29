@@ -66,7 +66,6 @@ H
 Explanation: 
 In the given binary matrix, first row is equal to the last row and the second row is equal to the second last row. Hence, H is printed.
 */
-
 #include <stdio.h>
 
 int main()
