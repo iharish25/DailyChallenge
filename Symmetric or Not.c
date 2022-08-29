@@ -1,7 +1,9 @@
 /*
 Symmetric or Not 
 
-The program must accept a binary matrix of size RxC as input. The program must print H if the matrix is horizontally symmetric, V if the matrix is vertically symmetric or S if the matrix is symmetric (both horizontally and vertically). Else the program must print -1 as the output. 
+The program must accept a binary matrix of size RxC as input. 
+The program must print H if the matrix is horizontally symmetric, V if the matrix is vertically symmetric or S if the matrix is symmetric 
+(both horizontally and vertically). Else the program must print -1 as the output. 
 
 Boundary Condition(s): 3 <= R, C <= 30 
 
@@ -23,7 +25,9 @@ Output:
 S 
 
 Explanation: 
-In the given binary matrix, first row is equal to the last row and the second row is equal to the second last row(middle row). Similarly, first column is equal to the third column and the second column is equal to the second last column(middle column). Hence, S is printed. 
+In the given binary matrix, first row is equal to the last row and the second row is equal to the second last row(middle row). 
+Similarly, first column is equal to the third column and the second column is equal to the second last column(middle column). 
+Hence, S is printed. 
 
 Example Input/Output 2: 
 Input: 
@@ -37,7 +41,9 @@ Output:
 -1 
 
 Explanation: 
-In the binary matrix, first row is not equal to the last row and the second row is not equal to the second last row. Similarly, first column is not equal to the last column and the second column is not equal to the second last column. Hence, -1 is printed. 
+In the binary matrix, first row is not equal to the last row and the second row is not equal to the second last row. 
+Similarly, first column is not equal to the last column and the second column is not equal to the second last column. 
+Hence, -1 is printed. 
 
 Example Input/Output 3: 
 Input: 
@@ -51,7 +57,8 @@ Output:
 V 
 
 Explanation: 
-In the given binary matrix, first column is equal to the last column and the second column is equal to the second last column. Hence, V is printed. 
+In the given binary matrix, first column is equal to the last column and the second column is equal to the second last column. 
+Hence, V is printed. 
 Example Input/Output 4: 
 Input: 
 4 4 
@@ -64,7 +71,8 @@ Output:
 H 
 
 Explanation: 
-In the given binary matrix, first row is equal to the last row and the second row is equal to the second last row. Hence, H is printed.
+In the given binary matrix, first row is equal to the last row and the second row is equal to the second last row. 
+Hence, H is printed.
 */
 #include <stdio.h>
 
