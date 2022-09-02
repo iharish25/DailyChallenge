@@ -48,9 +48,7 @@ Output:
 int getSum(int num,int sum){
     if(num == 0)
         return sum;
-
     sum += num % 10;
-
     return getSum(num/10, sum);
 }
 int main()
