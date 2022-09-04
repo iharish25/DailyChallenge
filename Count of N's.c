@@ -22,7 +22,8 @@ Input:
 50 55 
 Output: 
 4 
-Explanation: The integers between 50 and 55 are 51, 52, 53 and 54. 
+Explanation: 
+The integers between 50 and 55 are 51, 52, 53 and 54. 
 Here, 5 has occurred 4 times. 
 Hence 4 is printed as the outputs
 
