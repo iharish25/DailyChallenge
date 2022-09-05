@@ -1,5 +1,4 @@
 /*
-
 Maximum Sum Value 
 
 The program must accept an array of positive integers of size N as the input. The program must print the maximum sum of the 
